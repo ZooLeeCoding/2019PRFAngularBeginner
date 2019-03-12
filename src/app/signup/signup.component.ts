@@ -17,4 +17,8 @@ export class SignupComponent implements OnInit {
     return this.userService.greetUser();
   }
 
+  buttonClick() {
+    console.log(this.userService.greetUser());
+  }
+
 }
